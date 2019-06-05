@@ -174,6 +174,8 @@ CREATE TABLE IF NOT EXISTS `enseignement` (
   PRIMARY KEY (`id_enseignement`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+
+INSERT INTO `enseignement` (`id_enseignement`, `id_classe`, `id_discipline`, `id_p`) VALUES ('0', '1', '1', '4');
 -- --------------------------------------------------------
 
 --
